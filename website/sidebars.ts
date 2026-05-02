@@ -32,26 +32,35 @@ function generateProjectSidebar(folder: string) {
   });
 }
 
-const firebaseSidebars = [
-  ['firebaseStartdashTsSidebar', 'firebase_startdash_ts'],
-  ['firebaseFrontendFoundationTsSidebar', 'firebase_frontend_foundation_ts'],
-  ['firebaseLoginTsSidebar', 'firebase_login_ts'],
-  ['firebaseFirestoreBaseTsSidebar', 'firebase_firestore_base_ts'],
-  ['firebaseFirestoreStructureTsSidebar', 'firebase_firestore_struncture_ts'],
-  ['firebaseSecurityRoleTsSidebar', 'firebase_security_role_ts'],
-  ['firebaseStorageTsSidebar', 'firebase_storage_ts'],
-  ['firebaseFunctionsTsSidebar', 'firebase_functions_ts'],
-  ['firebaseHostingTsSidebar', 'firebase_hosting_ts'],
-  ['firebaseLocalDevTsSidebar', 'firebase_local_dev_ts'],
-  ['firebaseNotificationFcmTsSidebar', 'firebase_notification_fcm_ts'],
-  ['firebaseAnalyticsPerformanceTsSidebar', 'firebase_analytics_performance_ts'],
-  ['firebaseAbusePreventionTsSidebar', 'firebase_abuse_prevention_ts'],
-  ['firebaseAiTsSidebar', 'firebase_ai_ts'],
-  ['firebaseExtensionsTsSidebar', 'firebase_extensions_ts'],
+
+const cloudflareSidebars = [
+  ['cloudflareIsWhatTsSidebar', 'cloudflare_is_what_ts'],
+  ['cloudflareWebCloudTsSidebar', 'cloudflare_web_cloud_ts'],
+  ['cloudflareDevenvTsSidebar', 'cloudflare_devenv_ts'],
+  ['cloudflareWorkerFirstTsSidebar', 'cloudflare_worker_first_ts'],
+  ['cloudflareLocalDebugTsSidebar', 'cloudflare_local_debug_ts'],
+  ['cloudflareStaticPageTsSidebar', 'cloudflare_static_page_ts'],
+  ['cloudflareTypescriptTsSidebar', 'cloudflare_typescript_ts'],
+  ['cloudflareWorkerApiTsSidebar', 'cloudflare_worker_api_ts'],
+  ['cloudflareReactBaseTsSidebar', 'cloudflare_react_base_ts'],
+  ['cloudflareOwnDomainTsSidebar', 'cloudflare_own_domain_ts'],
+  ['cloudflareCdnCacheTsSidebar', 'cloudflare_cdn_cache_ts'],
+  ['cloudflareSecretsGuardTsSidebar', 'cloudflare_secrets_guard_ts'],
+  ['cloudflareStorageMapTsSidebar', 'cloudflare_storage_map_ts'],
+  ['cloudflareKvTsSidebar', 'cloudflare_kv_ts'],
+  ['cloudflareD1TsSidebar', 'cloudflare_d1_ts'],
+  ['cloudflareR2TsSidebar', 'cloudflare_r2_ts'],
+  ['cloudflareDurableObjectTsSidebar', 'cloudflare_durable_object_ts'],
+  ['cloudflareQueuesTsSidebar', 'cloudflare_queues_ts'],
+  ['cloudflareCronTsSidebar', 'cloudflare_cron_ts'],
+  ['cloudflareLogsTsSidebar', 'cloudflare_logs_ts'],
+  ['cloudflareWorkerAiTsSidebar', 'cloudflare_worker_ai_ts'],
+  ['cloudflareAiFunctionsTsSidebar', 'cloudflare_ai_functions_ts'],
+  ['cloudflareOverallFinishTsSidebar', 'cloudflare_overall_finish_ts'],
 ] as const;
 
 const sidebars: SidebarsConfig = Object.fromEntries(
-  firebaseSidebars.map(([sidebarId, folder]) => [sidebarId, generateProjectSidebar(folder)]),
+  cloudflareSidebars.map(([sidebarId, folder]) => [sidebarId, generateProjectSidebar(folder)]),
 );
 
 export default sidebars;

@@ -7,9 +7,9 @@ import * as path from 'path';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Firebaseの学習教材',
-  tagline: 'Firebaseの学習教材',
-  favicon: 'img/firebase_logo.svg',
+  title: 'Cloudflareの学習教材',
+  tagline: 'Cloudflare学習教材（24章アウトライン）',
+  favicon: 'img/cloudflare_logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -122,102 +122,71 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'Home',
-        src: 'img/firebase_logo.svg',
-        srcDark: 'img/firebase_logo.svg',
+        alt: 'Cloudflare',
+        src: 'img/cloudflare_logo.svg',
+        srcDark: 'img/cloudflare_logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseStartdashTsSidebar',
+          sidebarId: 'cloudflareIsWhatTsSidebar',
           position: 'left',
-          label: 'スタートダッシュ',
+          label: 'Cloudflareとは',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseFrontendFoundationTsSidebar',
+          sidebarId: 'cloudflareWebCloudTsSidebar',
           position: 'left',
-          label: 'フロント基礎',
+          label: 'Web/Cloud',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseLoginTsSidebar',
+          sidebarId: 'cloudflareDevenvTsSidebar',
           position: 'left',
-          label: 'ログイン',
+          label: '開発環境',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseFirestoreBaseTsSidebar',
+          sidebarId: 'cloudflareWorkerFirstTsSidebar',
           position: 'left',
-          label: 'Firestore基礎',
+          label: 'Worker入門',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseFirestoreStructureTsSidebar',
+          sidebarId: 'cloudflareTypescriptTsSidebar',
           position: 'left',
-          label: 'Firestore構造',
+          label: 'TypeScript',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseSecurityRoleTsSidebar',
+          sidebarId: 'cloudflareWorkerApiTsSidebar',
           position: 'left',
-          label: 'セキュリティ',
+          label: 'API',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseStorageTsSidebar',
+          sidebarId: 'cloudflareReactBaseTsSidebar',
           position: 'left',
-          label: 'ストレージ',
+          label: 'React連携',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseFunctionsTsSidebar',
+          sidebarId: 'cloudflareCdnCacheTsSidebar',
           position: 'left',
-          label: 'Functions',
+          label: 'CDN/キャッシュ',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseHostingTsSidebar',
+          sidebarId: 'cloudflareStorageMapTsSidebar',
           position: 'left',
-          label: 'Hosting',
+          label: '保存先',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'firebaseLocalDevTsSidebar',
+          sidebarId: 'cloudflareWorkerAiTsSidebar',
           position: 'left',
-          label: 'ローカル開発',
+          label: 'Workers AI',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'firebaseNotificationFcmTsSidebar',
-          position: 'left',
-          label: '通知(FCM)',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'firebaseAnalyticsPerformanceTsSidebar',
-          position: 'left',
-          label: '分析・パフォ',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'firebaseAbusePreventionTsSidebar',
-          position: 'left',
-          label: '悪用防止',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'firebaseAiTsSidebar',
-          position: 'left',
-          label: 'AI',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'firebaseExtensionsTsSidebar',
-          position: 'left',
-          label: 'Extensions',
-        },
-        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://komiyamma.net',
           label: 'komiyamma.net',
@@ -226,7 +195,7 @@ const config: Config = {
           target: '_self',
         },
         {
-          href: 'https://github.com/komiyamma/site-docusaurus-firebase-study',
+          href: 'https://github.com/komiyamma/site-docusaurus-cloudflare_study',
           label: 'GitHub',
           position: 'right',
         },
