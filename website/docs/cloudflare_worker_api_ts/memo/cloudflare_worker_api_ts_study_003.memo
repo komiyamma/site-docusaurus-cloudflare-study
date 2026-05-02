@@ -1,0 +1,1 @@
+WorkersにおけるfetchハンドラとRequest/Responseの基本構造を学び、文字列やJSONを返す最小構成のAPIをローカルで動かす手順を解説します。

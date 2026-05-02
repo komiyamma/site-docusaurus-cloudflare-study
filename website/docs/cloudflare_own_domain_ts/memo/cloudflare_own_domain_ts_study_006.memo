@@ -1,0 +1,1 @@
+Custom Domainsはホスト名全体をWorkerに完全に任せる公開方法です。CloudflareがDNSや証明書の管理を強力に助け、本番環境への公開を容易にします。

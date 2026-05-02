@@ -1,0 +1,1 @@
+VectorizeはCloudflareのベクトルDBで、意味の近さによる検索の基盤となります。Embeddingを保存し、FAQ検索やRAGなどに活用でき、本文の保存先はD1などと分担します。

@@ -1,0 +1,1 @@
+Workers KVのNamespace作成とWorkerへのBinding方法を解説。Wrangler CLIやwrangler.jsonc、TypeScriptのEnv型の設定方法と、Reactから直接触れない設計方針を紹介。

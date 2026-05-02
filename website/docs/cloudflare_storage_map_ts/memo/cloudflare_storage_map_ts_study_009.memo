@@ -1,0 +1,1 @@
+HyperdriveはWorkerから既存のPostgresやMySQLに接続する仕組みです。Cloudflare上のDBであるD1とは異なり、既存資産を活かしたい場合に選択します。

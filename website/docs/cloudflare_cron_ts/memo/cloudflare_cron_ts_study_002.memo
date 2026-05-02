@@ -1,0 +1,1 @@
+Cron TriggersはUTC基準のスケジュールに従いWorkerのscheduled()を定期実行する仕組み。毎朝の集計等に適し、処理が長引く場合はWorkflowsへ委譲するとよい。

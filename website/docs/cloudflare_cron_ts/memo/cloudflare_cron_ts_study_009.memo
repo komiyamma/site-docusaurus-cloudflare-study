@@ -1,0 +1,1 @@
+Workflowの基本構成として、WorkflowEntrypointを継承したクラスを定義し、wrangler.jsoncでバインディングを設定してWorkerからインスタンスを作成する。

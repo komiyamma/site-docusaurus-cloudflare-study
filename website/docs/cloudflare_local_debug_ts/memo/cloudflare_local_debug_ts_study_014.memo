@@ -1,0 +1,1 @@
+Cloudflare側でブラウザを実行し、Worker APIやReactから画面描画、スクリーンショット、AI要約を試すBrowser Renderingの手法を解説します。

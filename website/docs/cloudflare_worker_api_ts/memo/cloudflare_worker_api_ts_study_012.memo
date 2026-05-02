@@ -1,0 +1,1 @@
+API保護の3本柱として、Secretsによる秘密情報管理、Turnstileによるbot対策とサーバー側検証、Rate Limitingの概念と実装方法を解説します。

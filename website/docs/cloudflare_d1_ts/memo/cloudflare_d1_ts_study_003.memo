@@ -1,0 +1,1 @@
+D1はWorkerのbinding経由で利用するSQLiteベースのサーバーレスDBです。Wranglerで作成し、TypeScriptで型を定義して安全にアクセスします。

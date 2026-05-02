@@ -1,0 +1,1 @@
+独自ドメイン設定の前に、まずはworkers.devを用いてCloudflare上のWorker単体の実際の動作を確認します。devとdeployの明確な違いをここで学びます。

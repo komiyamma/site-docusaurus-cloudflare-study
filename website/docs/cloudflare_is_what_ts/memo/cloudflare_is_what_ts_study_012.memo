@@ -1,0 +1,1 @@
+CloudflareにおけるReact系開発では、SPAはWorkersとViteで、Next.jsはOpenNextで、静的サイトはPagesで構成するというのが基本の配置となります。

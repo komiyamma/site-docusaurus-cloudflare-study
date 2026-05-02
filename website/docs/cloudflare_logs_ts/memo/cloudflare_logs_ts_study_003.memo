@@ -1,0 +1,1 @@
+Workers Logsを有効にするにはwrangler.jsoncにobservability設定を追加し、Dashboardを利用して本番環境のログを安全に確認する基本を学びます。

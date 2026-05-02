@@ -1,0 +1,1 @@
+Cloudflare Workersを中心とした開発基盤の全体像を解説。静的配信からDB、AI機能まで統合されており、TypeScriptによる型安全な開発が推奨されます。

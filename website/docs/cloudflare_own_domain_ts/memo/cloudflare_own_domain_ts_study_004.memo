@@ -1,0 +1,1 @@
+Reactアプリの画面とAPIは各々役割が異なります。サブドメイン構成の考え方やCloudflare Vite Pluginの活用、CORSの適切な許可設定について深く学びます。

@@ -1,0 +1,1 @@
+WorkerでHTMLとJSONを返す方法を学びます。ResponseのContent-Typeを適切に設定し、ページ表示とAPI出力を1つのWorker内で共存させる基本手法を習得します。

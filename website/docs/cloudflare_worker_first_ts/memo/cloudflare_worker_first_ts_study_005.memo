@@ -1,0 +1,1 @@
+Workerの基本はfetch関数によるリクエストとレスポンスの処理です。requestは入力、envはCloudflare設定、ctxはバックグラウンド処理の役割を持ちます。

@@ -1,0 +1,1 @@
+C3を用いたWorkers環境構築手順と、Wranglerによるローカル実行や型生成の基本を解説し、D1やWorkersAI等のCloudflare製品連携のための土台を作ります。

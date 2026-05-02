@@ -1,0 +1,1 @@
+APIの基本概念と、Cloudflare Workersにおける「Requestを受けてResponseを返す」という基本構造について解説し、外部APIやAIとの連携の基礎を学びます。

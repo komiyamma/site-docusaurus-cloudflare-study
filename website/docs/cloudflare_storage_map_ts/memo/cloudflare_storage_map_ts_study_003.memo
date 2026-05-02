@@ -1,0 +1,1 @@
+BindingsはWorkerと保存先を安全に繋ぐ設定です。wrangler.jsoncに記述しコードのenvから参照します。フロントから直接触らずWorkerを経由します。

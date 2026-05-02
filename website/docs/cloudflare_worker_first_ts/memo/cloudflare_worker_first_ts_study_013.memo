@@ -1,0 +1,1 @@
+wrangler deployコマンドを用いてWorkerをCloudflare上にデプロイし公開する手順を解説します。compatibility_dateの重要性やGit連携の展望を学びます。

@@ -1,0 +1,1 @@
+キャッシュ設定後はDevToolsのNetworkタブでCF-Cache-Status等を確認し、Cloudflare Traceでルール適用の確実な証拠を見極めることが非常に重要です。

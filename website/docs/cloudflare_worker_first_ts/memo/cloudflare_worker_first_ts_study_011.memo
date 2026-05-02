@@ -1,0 +1,1 @@
+Workerの環境変数(vars)とSecretsの安全な管理方法を学びます。ローカルの.dev.varsや.envでの管理、Wrangler CLIによる本番登録、環境別非継承の設定手法を解説します。

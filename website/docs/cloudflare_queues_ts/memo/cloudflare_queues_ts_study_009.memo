@@ -1,0 +1,1 @@
+Cloudflare QueuesにおけるAt-least-once delivery特性と冪等性の設計手法について。ジョブIDやD1を活用した二重実行防止の仕組みを解説する。

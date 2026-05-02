@@ -1,0 +1,1 @@
+Workflows内で待機が必要な場合はstep.sleep()やstep.sleepUntil()を利用する。これにより、外部APIの反映や承認待ちなどを効率的に処理できる。

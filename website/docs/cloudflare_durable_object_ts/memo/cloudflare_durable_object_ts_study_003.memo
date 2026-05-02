@@ -1,0 +1,1 @@
+Workersを入口としてDurable Objects(DO)へ処理を渡す役割分担を解説。Workerは外向きのAPIで受付や認証を担当し、DOは内側で特定のIDに関する状態管理を担当する。

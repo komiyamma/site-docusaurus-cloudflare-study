@@ -1,0 +1,1 @@
+Cloudflare QueuesのConsumer Workerの役割について。設定ファイルの記述、ハンドラの基本構成、エラー発生時の再試行の考え方を学ぶ内容。

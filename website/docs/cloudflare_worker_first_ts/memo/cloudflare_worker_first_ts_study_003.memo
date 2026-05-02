@@ -1,0 +1,1 @@
+生成されたWorkerプロジェクトの主要ファイルを確認します。srcはコード本体、package.jsonはNode設定、wrangler.jsoncはCloudflare設定の役割を担います。

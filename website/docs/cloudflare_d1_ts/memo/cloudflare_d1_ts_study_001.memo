@@ -1,0 +1,1 @@
+D1はCloudflare上で表形式データを扱うSQLiteベースのサーバーレスデータベースです。直接参照せず、WorkerのBinding経由でCRUD操作を行います。

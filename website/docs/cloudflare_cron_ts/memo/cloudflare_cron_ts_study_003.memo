@@ -1,0 +1,1 @@
+Cron Triggersの実行日時はwrangler.jsoncのtriggers.cronsにてUTC基準のcron式で設定する。設定ファイルを分けて環境ごとの実行頻度を変更することも可能である。

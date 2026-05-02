@@ -1,0 +1,1 @@
+R2バケットの作成方法から、wrangler.jsoncへのbinding追加、TypeScriptでの型定義など、Workerを経由してR2を安全に利用するための初期設定を学ぶ。

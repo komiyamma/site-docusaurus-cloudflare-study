@@ -1,0 +1,1 @@
+Workers KVでのJSONオブジェクトの保存(stringify/parse)と、metadataを活用した補助情報の付与方法を解説。TypeScriptの型定義やmetadataのサイズ制限にも触れる。

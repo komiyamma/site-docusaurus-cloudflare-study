@@ -1,0 +1,1 @@
+CloudflareのBindings概念を詳しく詳解。Reactから直接触れずWorkerを経由する理由や、D1・KV・AIなどの各クラウドリソースの使い分けを学ぶ。

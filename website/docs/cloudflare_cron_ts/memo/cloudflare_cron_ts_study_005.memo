@@ -1,0 +1,1 @@
+Cronのスケジュールを待たずに動作確認するためには、wrangler dev起動中にローカルの/cdn-cgi/handler/scheduledへリクエストを送り手動実行する。

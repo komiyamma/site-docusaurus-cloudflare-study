@@ -1,0 +1,1 @@
+scheduled() handlerはCron Triggerで起動するWorkerの入口。controller.cron等で情報取得し、ctx.waitUntil()で非同期処理を進めログで追跡可能にする。

@@ -1,0 +1,1 @@
+Cloudflare Queuesの構成要素であるProducer・Queue・Consumerの役割について。各コンポーネントの機能と、Worker APIを通じた安全な設計を解説。

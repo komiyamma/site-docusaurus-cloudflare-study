@@ -1,0 +1,1 @@
+Workersの裏側で動く機能を解説。Queuesでの非同期処理、Workflowsでの長時間の状態管理に加え、LogsとTracesを活用した本番運用の基礎を学びます。

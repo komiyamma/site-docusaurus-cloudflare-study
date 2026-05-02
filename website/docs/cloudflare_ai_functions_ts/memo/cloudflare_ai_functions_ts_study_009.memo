@@ -1,0 +1,1 @@
+RAGはユーザーの質問をembedding化し、Vectorizeで検索した関連文書をD1やR2から取得し、AIの回答用contextとして渡す手法で、出典の表示と権限管理が重要です。

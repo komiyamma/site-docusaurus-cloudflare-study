@@ -1,0 +1,1 @@
+Cloudflare QueuesのProducer Workerの役割と実装方法について。データの入力検証、Queueへの送信、シークレット情報の扱いなどを解説する。

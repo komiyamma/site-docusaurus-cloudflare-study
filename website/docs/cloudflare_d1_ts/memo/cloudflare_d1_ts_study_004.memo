@@ -1,0 +1,1 @@
+テーブルは表、行はデータ、列は項目です。D1ではCREATE TABLEで設計図を作り、TEXTやINTEGERなどの型を用いて、WranglerでSQLを実行し作成します。

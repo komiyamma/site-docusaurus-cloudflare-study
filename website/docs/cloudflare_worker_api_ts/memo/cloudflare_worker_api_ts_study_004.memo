@@ -1,0 +1,1 @@
+GETリクエストにおけるURLパスやクエリ文字列の解析方法を解説し、CloudflareのRoutes設定とWorker内部のルーティングの違い、およびAI APIの基礎となる設計を学びます。

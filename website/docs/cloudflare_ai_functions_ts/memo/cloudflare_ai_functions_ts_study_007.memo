@@ -1,0 +1,1 @@
+Workers AIで文章をembedding化しVectorizeへ保存する手順を解説。IDを用いてD1やR2に保存した本文と連携し、検索用メタデータを管理します。

@@ -1,0 +1,1 @@
+WorkerからVectorizeを使用するためには、用途ごとにindexを作成し、embeddingモデルのdimensionを合わせ、bindingを設定してEnv型を定義する準備が必要です。

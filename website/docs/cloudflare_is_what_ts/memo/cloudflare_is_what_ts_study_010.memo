@@ -1,0 +1,1 @@
+VS Codeでの開発はwrangler.jsoncを設定の中心とし、APIならWrangler、ReactなどUIを含む場合はViteを用いてローカル環境で効率的に開発を進めます。

@@ -1,0 +1,1 @@
+Cloudflareのキャッシュ設定は基本Cache Rulesで行い、Worker内での特別な条件に基づく細かいキャッシュ制御が必要な場合のみCache APIを活用します。

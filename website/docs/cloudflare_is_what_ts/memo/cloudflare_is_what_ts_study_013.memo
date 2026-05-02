@@ -1,0 +1,1 @@
+Cloudflareのストレージは、軽量データのKV、表管理のD1、ファイルのR2、状態管理のDurable Objects、非同期のQueuesなど適材適所で使い分けます。

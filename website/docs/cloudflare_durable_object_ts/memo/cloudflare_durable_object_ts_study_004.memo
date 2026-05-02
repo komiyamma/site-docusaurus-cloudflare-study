@@ -1,0 +1,1 @@
+Durable Objectsを利用するためのWrangler設定を解説。wrangler.jsoncでのbinding名設定やマイグレーション設定、TypeScriptのEnv型の記述方法を学ぶ。
