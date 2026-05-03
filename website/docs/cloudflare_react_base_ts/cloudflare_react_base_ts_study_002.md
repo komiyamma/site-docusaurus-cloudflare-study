@@ -108,7 +108,7 @@ React を使うときは、まず
 を分けて考えると頭が整理しやすいです。
 このうち、**親から渡す値**が props です 📮
 
-![React Props](./picture/cloudflare_react_base_ts_study_002_2_props.png)
+
 
 ---
 
@@ -143,7 +143,7 @@ function Counter() {
 そして `setCount` を呼ぶと、React がもう一度そのコンポーネントを呼び直して、**新しい見た目を画面に反映**してくれます。
 つまり React の感覚は、**「DOM を手でいじる」のではなく、「状態を変えたら表示がついてくる」**です 😊 ([React][9])
 
-![React State](./picture/cloudflare_react_base_ts_study_002_3_state.png)
+
 
 ---
 
@@ -222,7 +222,7 @@ React ではそれを使って、**「データの数だけ見た目を並べる
 
 あとで Cloudflare 側の API から JSON を受け取ったら、その配列を `map()` で回して表示する場面がたくさん出てきます。ここで慣れておくと、第7章以降がかなり楽になります 🔗
 
-![React Map Function](./picture/cloudflare_react_base_ts_study_002_4_map.png)
+
 
 ---
 
@@ -359,7 +359,7 @@ Hooks は React のルールがあり、`useState` などは**関数コンポー
 
 React の Strict Mode では、開発中に不純な処理やバグを見つけやすくするため、純粋であるべき関数の一部を**2回呼ぶ**ことがあります。初学者にはびっくりポイントですが、「壊れた」のではなく、**怪しい書き方を見つけやすくするための仕組み**です。 ([React][16])
 
-![React Common Mistakes](./picture/cloudflare_react_base_ts_study_002_5_mistakes.png)
+
 
 ---
 

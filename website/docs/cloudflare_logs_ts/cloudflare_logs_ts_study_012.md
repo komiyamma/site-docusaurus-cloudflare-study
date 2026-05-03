@@ -35,7 +35,7 @@ CPU time
 
 急に変化した時間帯を見つけます。
 
-![Overall Metrics](./picture/cloudflare_logs_ts_study_012_2_overall_metrics.png)
+
 
 ---
 
@@ -52,7 +52,7 @@ CPU time
 
 新しい変更が原因とは限りませんが、有力な手がかりです。
 
-![Recent Changes Check](./picture/cloudflare_logs_ts_study_012_3_recent_changes.png)
+
 
 ---
 
@@ -71,7 +71,7 @@ durationMs
 
 同じエラーが繰り返されているか、特定データだけで起きるかを見ます。
 
-![Individual Logs Deep Dive](./picture/cloudflare_logs_ts_study_012_4_individual_logs.png)
+
 
 ---
 

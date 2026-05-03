@@ -39,7 +39,7 @@ AI provider
 
 リクエスト数や失敗、latencyを見やすくなります。
 
-![AI Gateway Flow](./picture/cloudflare_logs_ts_study_011_2_ai_gateway_flow.png)
+
 
 ---
 
@@ -55,7 +55,7 @@ AIアプリでは、ログにプロンプトを出したくなることがあり
 
 必要ならマスクや要約を考えます。
 
-![Prompt Privacy](./picture/cloudflare_logs_ts_study_011_3_prompt_privacy.png)
+
 
 ---
 
@@ -69,7 +69,7 @@ Worker API → Queue / Workflow → AI処理 → D1へ状態保存
 
 jobIdで全体を追えるようにします。
 
-![Queue and Workflow with AI](./picture/cloudflare_logs_ts_study_011_4_queue_workflow.png)
+
 
 ---
 
