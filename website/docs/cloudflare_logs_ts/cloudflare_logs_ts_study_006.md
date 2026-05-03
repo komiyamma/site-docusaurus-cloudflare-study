@@ -23,7 +23,6 @@ console.log("api request completed", {
 
 あとで `requestId` や `route` で探しやすくなります。
 
-![ログの検索](./picture/cloudflare_logs_ts_study_006_searchable_logs.png)
 
 ---
 
@@ -83,7 +82,6 @@ return response;
 
 遅いAPIを見つける手がかりになります。
 
-![処理時間の計測](./picture/cloudflare_logs_ts_study_006_measure_duration.png)
 
 ---
 

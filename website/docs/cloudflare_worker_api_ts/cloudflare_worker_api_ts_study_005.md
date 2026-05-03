@@ -32,7 +32,6 @@ Cloudflare Workers では、受信した HTTP リクエストは Fetch API の `
 
 ここから API は、ただ返すだけではなく、**受け取って考えて返す** ようになります 😊
 
-![cloudflare_worker_api_ts_study_005_1_get_vs_post](./picture/cloudflare_worker_api_ts_study_005_1_get_vs_post.png)
 
 ---
 
@@ -324,7 +323,6 @@ API は受け取ったら終わりではなく、**ちゃんとチェックし�
 あとで React 側とつなぐと、失敗レスポンスがない API はかなり扱いづらいです。
 この章のうちから `ok: false` と `status: 400` の感覚に慣れておくと強いです 💪
 
-![cloudflare_worker_api_ts_study_005_5_error_handling](./picture/cloudflare_worker_api_ts_study_005_5_error_handling.png)
 
 ---
 

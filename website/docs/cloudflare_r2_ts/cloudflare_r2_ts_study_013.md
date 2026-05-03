@@ -24,7 +24,6 @@ R2: 画像本体
 D1: タイトル、説明、R2 key、作成日時
 ```
 
-![D1 for Metadata vs R2 for files](./picture/cloudflare_r2_ts_study_013_02_d1_metadata.png)
 
 ---
 

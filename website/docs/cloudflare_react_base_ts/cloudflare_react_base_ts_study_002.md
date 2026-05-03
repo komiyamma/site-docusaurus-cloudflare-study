@@ -24,7 +24,6 @@
 
 ## 1. Reactって、ひとことで言うと何？ 🤔✨
 
-![React Components as UI Building Blocks](./picture/cloudflare_react_base_ts_study_002_react_concept.png)
 
 React は、**ユーザーインターフェースを小さな部品の集まりとして作るための JavaScript ライブラリ**です。ボタン、見出し、入力欄、カード、一覧などをそれぞれ部品にして、それらを組み合わせてページ全体を作ります。React 公式も、UI は小さな部品に分けられ、それを再利用しながら画面を組み立てる考え方を基本にしています。 ([React][4])
 
@@ -36,6 +35,8 @@ React は、**ユーザーインターフェースを小さな部品の集まり
 * 履歴一覧コンポーネント
 
 こうやって分けておくと、後から「見た目を変える」「AIの返事を出す」「Workers APIから受け取った結果を表示する」がかなり楽になります。Cloudflare の公式ガイドも、React を SPA の画面側、Workers を API 側として組み合わせる導線を示しています。 ([Cloudflare Docs][5])
+
+![React Components as Blocks](./picture/cloudflare_react_base_ts_study_002_1_components.png)
 
 ---
 
@@ -70,7 +71,6 @@ function Title() {
 
 ## 3. props は「親から子へ渡すメモ」📦💌
 
-![Difference between Props and State](./picture/cloudflare_react_base_ts_study_002_react_props_state.png)
 
 次に覚えたいのが **props** です。
 props は、**親コンポーネントから子コンポーネントへ渡す値**です。React 公式でも、親が子に props を渡し、子はそれを引数のように受け取って表示や動作に使う流れが基本として紹介されています。 ([React][8])
@@ -108,6 +108,8 @@ React を使うときは、まず
 を分けて考えると頭が整理しやすいです。
 このうち、**親から渡す値**が props です 📮
 
+![React Props](./picture/cloudflare_react_base_ts_study_002_2_props.png)
+
 ---
 
 ## 4. state は「その部品の中の記憶」🧠✨
@@ -141,11 +143,12 @@ function Counter() {
 そして `setCount` を呼ぶと、React がもう一度そのコンポーネントを呼び直して、**新しい見た目を画面に反映**してくれます。
 つまり React の感覚は、**「DOM を手でいじる」のではなく、「状態を変えたら表示がついてくる」**です 😊 ([React][9])
 
+![React State](./picture/cloudflare_react_base_ts_study_002_3_state.png)
+
 ---
 
 ## 5. イベントは「ユーザーの操作に反応する仕組み」🖱️⚡
 
-![React Events (onClick, onChange)](./picture/cloudflare_react_base_ts_study_002_react_event.png)
 
 React では、クリックや入力などのユーザー操作に反応するために **イベントハンドラ** を使います。公式でも、JSX にイベントハンドラを追加し、クリック・ホバー・フォーカスなどの操作に応じて関数を実行できると説明されています。 ([React][10])
 
@@ -186,7 +189,6 @@ React 初学者が急に楽しくなるポイントはここです。
 
 ## 6. `map` は「配列から一覧を作る魔法」📚✨
 
-![Using map for lists](./picture/cloudflare_react_base_ts_study_002_react_map.png)
 
 React では、同じ形の表示をたくさん並べたいことがよくあります。たとえば、メモ一覧、検索結果一覧、AIの返答履歴などです。React 公式では、こうした一覧表示に JavaScript の **`map()`** を使って、配列から JSX の配列を作るやり方を基本として案内しています。さらに、各要素には **`key`** が必要で、通常はデータの ID を使うのが推奨されています。 ([React][11])
 
@@ -219,6 +221,8 @@ function TodoList() {
 React ではそれを使って、**「データの数だけ見た目を並べる」**ことができます 🌼
 
 あとで Cloudflare 側の API から JSON を受け取ったら、その配列を `map()` で回して表示する場面がたくさん出てきます。ここで慣れておくと、第7章以降がかなり楽になります 🔗
+
+![React Map Function](./picture/cloudflare_react_base_ts_study_002_4_map.png)
 
 ---
 
@@ -355,6 +359,8 @@ Hooks は React のルールがあり、`useState` などは**関数コンポー
 
 React の Strict Mode では、開発中に不純な処理やバグを見つけやすくするため、純粋であるべき関数の一部を**2回呼ぶ**ことがあります。初学者にはびっくりポイントですが、「壊れた」のではなく、**怪しい書き方を見つけやすくするための仕組み**です。 ([React][16])
 
+![React Common Mistakes](./picture/cloudflare_react_base_ts_study_002_5_mistakes.png)
+
 ---
 
 ## 10. VS Code と GitHub Copilot はこの章でどう使う？ 🤝💻✨
@@ -376,7 +382,6 @@ React の Strict Mode では、開発中に不純な処理やバグを見つけ�
 
 ## 11. Cloudflare中軸の教材として、この章が大事な理由 ☁️⚛️🤖
 
-![React and Cloudflare Workers Architecture](./picture/cloudflare_react_base_ts_study_002_react_cloudflare_architecture.png)
 
 この教材の主役は React ではなく、あくまで **Cloudflare を使った小さなアプリ作り**です。
 でもそのためには、画面側で

@@ -32,8 +32,9 @@ Cloudflare の現行公式ガイドでは、React 側の `src/App.tsx` が Worke
 ---
 
 ## 3. まずは「勝手についてくる」感覚をつかもう 🧩
+![type_inference](./picture/cloudflare_react_base_ts_study_003_1_type_inference.png)
 
-![TypeScript Type Inference](./picture/cloudflare_react_base_ts_study_003_typescript_type_inference.png)
+
 
 最初に覚えたいのは、**TypeScript は全部を手書きしなくてもかなり推測してくれる**ことです。たとえば文字列を入れれば `string`、数字を入れれば `number`、配列なら中身を見て配列の型を考えてくれます。これは TypeScript の「型推論」の基本です。([TypeScript][6])
 
@@ -49,8 +50,9 @@ const tags = ["react", "workers", "typescript"];
 ---
 
 ## 4. いちばん大事なのは「関数の入口と出口」🚪📦
+![function_io](./picture/cloudflare_react_base_ts_study_003_2_function_io.png)
 
-![Types for Function Inputs and Outputs](./picture/cloudflare_react_base_ts_study_003_typescript_function_types.png)
+
 
 React でも Workers でも、実務でまず効くのは**関数の型**です。TypeScript の公式ハンドブックでも、関数はアプリの基本部品として扱われています。特に初心者のうちは、**引数に何が入るか**、**返り値で何が出るか**の2点を押さえるだけでかなり見通しがよくなります。
 
@@ -66,8 +68,9 @@ function greet(name: string): string {
 ---
 
 ## 5. オブジェクト型は「データの設計図」🏗️
+![object_blueprint](./picture/cloudflare_react_base_ts_study_003_3_object_blueprint.png)
 
-![Object Types as Blueprints](./picture/cloudflare_react_base_ts_study_003_typescript_object_type.png)
+
 
 JavaScript では、データをまとめる基本はオブジェクトです。TypeScript でも、オブジェクトの形を表せるようになると一気に便利になります。公式ハンドブックでも、オブジェクト型は JavaScript でデータをまとめて受け渡しする中心的な方法として説明されています。([TypeScript][7])
 
@@ -100,6 +103,8 @@ React と Workers の間で JSON をやり取りするとき、この考え方�
 ---
 
 ## 6. 配列は「同じ種類が並ぶ箱」と考えよう 📚
+![array_boxes](./picture/cloudflare_react_base_ts_study_003_4_array_boxes.png)
+
 
 TypeScript の基本型では、配列は `string[]` や `number[]` のように書けます。公式ドキュメントでも、配列型は最初に覚える基本として扱われています。([TypeScript][8])
 
@@ -142,8 +147,9 @@ type HelloResponse = {
 ---
 
 ## 8. 非同期は「あとで返ってくる」を表している ⏳
+![promise_box](./picture/cloudflare_react_base_ts_study_003_5_promise_box.png)
 
-![Promises and Async operations in TypeScript](./picture/cloudflare_react_base_ts_study_003_typescript_promise.png)
+
 
 API を呼ぶときは、すぐ値が返らず、あとで返ってきます。TypeScript では `async` 関数は `Promise` を返す形になり、`await` でその結果を待ちます。これは TypeScript のドキュメントでも基本の扱いです。
 
@@ -165,8 +171,9 @@ async function fetchHello(): Promise<HelloResponse> {
 ---
 
 ## 9. union型は「どちらかかもしれない」を表す 🛣️
+![union_path](./picture/cloudflare_react_base_ts_study_003_6_union_path.png)
 
-![Union Types (A | B)](./picture/cloudflare_react_base_ts_study_003_typescript_union.png)
+
 
 実際のアプリでは、「読み込み中はまだ `null`」「成功ならデータあり」「失敗なら文字列エラーあり」みたいな状態がよくあります。TypeScript では、こういう“複数の可能性”を union 型で表せます。公式の Narrowing の章では、`number | string` のような union を条件分岐で絞り込む考え方が説明されています。([TypeScript][9])
 
@@ -241,8 +248,9 @@ React の公式では、`useEffect` は外部システムと同期するため�
 ---
 
 ## 12. Cloudflare Workers 側では `Env` がすごく大事 🧰
+![cloudflare_env](./picture/cloudflare_react_base_ts_study_003_7_cloudflare_env.png)
 
-![Cloudflare Env Bindings and TypeScript](./picture/cloudflare_react_base_ts_study_003_typescript_cloudflare_env.png)
+
 
 Cloudflare Workers では、AI、KV、D1、R2 などの機能を binding として Worker に接続します。Workers AI を使うときも binding が必要で、dashboard か Wrangler 設定で追加します。([Cloudflare Docs][12])
 

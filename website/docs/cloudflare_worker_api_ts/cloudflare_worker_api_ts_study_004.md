@@ -262,7 +262,6 @@ if (pathname === "/api/greet") {
 `searchParams.get("name")` は、値がなければ `null` になります。
 だから `?? "ゲスト"` のようにして、未指定時の初期値を入れるのがとても大事です 💡
 
-![cloudflare_worker_api_ts_study_004_3_query_strings](./picture/cloudflare_worker_api_ts_study_004_3_query_strings.png)
 
 ---
 

@@ -1,8 +1,9 @@
 ﻿# 「最初のWorkerを動かしてみよう」を広げた15章構成 ☁️🚀✨
 
 ## 第1章　Workerってそもそも何？🌍☁️
+![worker_overview](./picture/cloudflare_worker_first_ts_index_1_worker_overview.png)
 
-![Cloudflare Worker Concept](./picture/cloudflare_worker_first_ts_index_worker_concept.png)
+
 
 この章では、Workerを「Cloudflareの上で動く小さなプログラム」としてつかみます。
 まずは「アクセスが来る → コードが動く → 返事を返す」という1本の流れだけに集中します。
@@ -14,8 +15,9 @@ Cloudflare全体の話を広げすぎず、ここではWorkersだけを主役に
 この章のゴールは、Workerを怖いものではなく「Webの延長」として見られることです。 ([Cloudflare Docs][2])
 
 ## 第2章　最初のHello WorldをC3で作ろう 🚀📦
+![c3_init](./picture/cloudflare_worker_first_ts_index_2_c3_init.png)
 
-![C3 Project Creation](./picture/cloudflare_worker_first_ts_index_c3_setup.png)
+
 
 ここではCloudflare公式の現在の入口である **C3** で、最初のWorkerプロジェクトを作ります。
 いきなり手書きで始めず、まずは公式が用意した安全な入口に乗ります。
@@ -27,6 +29,8 @@ Cloudflare全体の話を広げすぎず、ここではWorkersだけを主役に
 まずは「自分のWorkerプロジェクトが生まれた！」をしっかり感じる章です。 ([Cloudflare Docs][3])
 
 ## 第3章　作られたファイルをCopilotと一緒に読んでみよう 🤖📁
+![copilot_reading](./picture/cloudflare_worker_first_ts_index_3_copilot_reading.png)
+
 
 この章では、生成されたフォルダとファイルを「読める状態」にします。
 `src`、`package.json`、`wrangler.jsonc` が何を担当しているのかをざっくり整理します。
@@ -38,8 +42,9 @@ Copilot Chat では agent mode もありますが、最初は説明・要約・�
 この章は、コードを書く章というより“Cloudflareの雰囲気に慣れる章”です。 ([Cloudflare Docs][4])
 
 ## 第4章　`wrangler dev` でローカル起動してみよう 🔍⚡
+![wrangler_dev](./picture/cloudflare_worker_first_ts_index_4_wrangler_dev.png)
 
-![Local Development Loop](./picture/cloudflare_worker_first_ts_index_dev_loop.png)
+
 
 ここでは、作ったWorkerをローカルで起動して動かします。
 「保存して、ブラウザで見て、直して、また見る」という開発の基本ループを体験します。
@@ -51,8 +56,9 @@ Wranglerは今もCloudflare開発の中心CLIで、ローカル確認の入口�
 この章のゴールは、**怖がらずに何度も実行できること**です。 ([Cloudflare Docs][5])
 
 ## 第5章　`fetch()` を読んで、RequestとResponseをつかもう 📨🌐
+![fetch_api](./picture/cloudflare_worker_first_ts_index_5_fetch_api.png)
 
-![The Fetch Handler](./picture/cloudflare_worker_first_ts_index_fetch_handler.png)
+
 
 この章では、Workerのいちばん大事な入口である `fetch()` をやさしく見ます。
 HTTPリクエストを受け取り、レスポンスを返す、という最小構造を学びます。
@@ -64,6 +70,8 @@ CloudflareのWorkerは、ES Modulesの形で `export default` を使うのが基
 Hello Worldの裏で何が起きていたのかが、ここでやっと言葉になります。 ([Cloudflare Docs][3])
 
 ## 第6章　文字だけじゃないよ。HTMLとJSONも返してみよう 🧾✨
+![response_types](./picture/cloudflare_worker_first_ts_index_6_response_types.png)
+
 
 この章では、ただの文字列だけでなく、HTMLやJSONも返してみます。
 「ブラウザ向け」と「JavaScript向け」で返し方が変わる感覚をここでつかみます。
@@ -75,6 +83,8 @@ HTMLを返せば簡単なページっぽくなり、JSONを返せばAPIっぽく
 「Cloudflareで何か作れそう！」と思える気持ちを育てる章です。 ([Cloudflare Docs][2])
 
 ## 第7章　URLで分岐して“小さなAPI”っぽくしよう 🛣️🔗
+![url_routing](./picture/cloudflare_worker_first_ts_index_7_url_routing.png)
+
 
 ここでは、URLによって処理を変える流れを学びます。
 `/` は挨拶、`/json` はJSON、`/about` は説明、というような簡単な分岐を作ります。
@@ -164,7 +174,6 @@ React自体は最新メジャーの流れで学べば十分で、重たい設計
 
 ## 第15章　Workers AI・AI Gateway・Copilot・MCPで“今どきのWorker学習”に仕上げよう 🤖☁️🪄
 
-![Workers AI and AI Gateway](./picture/cloudflare_worker_first_ts_index_ai_gateway.png)
 
 最後は、CloudflareらしいAIの世界へ自然につなげます。
 まずWorkers AIで、WorkerからそのままAIモデルを呼べる感覚をつかみます。

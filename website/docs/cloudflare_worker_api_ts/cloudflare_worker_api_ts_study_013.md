@@ -348,7 +348,6 @@ AI API を作るときは、つい
 
 ## 一歩先：AI Gateway をどう考える？ 🛰️
 
-![Adding AI Gateway for analytics and caching](./picture/cloudflare_worker_api_ts_study_013_04_ai_gateway_layer.png)
 
 この章では必須ではありませんが、AI API を少し本番寄りにするなら **AI Gateway** を早めに意識しておくと良いです。Cloudflare 公式では、AI Gateway は **analytics / caching / security** をWorkers AIリクエストに付けられる位置づけで説明されています。関連ページではさらに、キャッシュ、レート制御、リトライ、モデルフォールバックなどの機能も案内されています。 ([Cloudflare Docs][7])
 
@@ -364,7 +363,6 @@ AI API を作るときは、つい
 
 ## 一歩先：Vectorize につながる未来 🧭
 
-![Concept of Vectorize and RAG](./picture/cloudflare_worker_api_ts_study_013_05_vectorize_rag_concept.png)
 
 今作ったのは「入力された1文を整理する」AI APIでした。
 でも次の段階では、「資料やFAQを検索してから答える」AIが欲しくなります 📚

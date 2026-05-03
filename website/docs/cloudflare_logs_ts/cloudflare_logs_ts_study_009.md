@@ -3,7 +3,6 @@
 最初はDashboardや `wrangler tail` で十分です。  
 でも本格運用では、ログを外部の監視サービスや保存先へ送りたくなることがあります。
 
-![Need for external log storage in production](./picture/cloudflare_logs_ts_study_009_intro_concept.png)
 
 ---
 

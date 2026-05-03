@@ -3,7 +3,6 @@
 最後は、ここまでの内容を小さな運用ダッシュボードにまとめます。  
 作ったアプリを、自分で見守れる状態にするのがゴールです。
 
-![dashboard goal](./picture/cloudflare_logs_ts_study_015_dashboard_goal.png)
 
 ---
 
@@ -20,7 +19,6 @@
 
 全部を表示するより、最初に見るべき数字を並べます。
 
-![dashboard metrics](./picture/cloudflare_logs_ts_study_015_dashboard_metrics.png)
 
 ---
 
@@ -74,7 +72,6 @@ CREATE TABLE app_events (
 
 運用画面自体も、守るべきアプリの一部です。
 
-![admin checklist](./picture/cloudflare_logs_ts_study_015_admin_checklist.png)
 
 ---
 

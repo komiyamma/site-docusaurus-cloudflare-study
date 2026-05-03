@@ -18,7 +18,6 @@ Workers Analyticsで基本的な情報は見られます。
 
 標準メトリクスだけでは見えない、アプリ固有の出来事です。
 
-![Custom events in an app](./picture/cloudflare_logs_ts_study_008_custom_events_concept.png)
 
 ---
 
@@ -39,7 +38,6 @@ Workers Analyticsで基本的な情報は見られます。
 
 Workerでは `env.ANALYTICS` として使います。
 
-![Analytics Engine binding](./picture/cloudflare_logs_ts_study_008_analytics_engine_binding.png)
 
 ---
 
@@ -59,7 +57,6 @@ env.ANALYTICS.writeDataPoint({
 
 公式ドキュメントでは、Analytics Engineへの書き込みはnon-blockingでWorkerのlatencyを増やさないと案内されています。
 
-![Non-blocking nature of Analytics Engine](./picture/cloudflare_logs_ts_study_008_non_blocking.png)
 
 ---
 
@@ -74,7 +71,6 @@ env.ANALYTICS.writeDataPoint({
 
 個人を追いすぎない、集計しやすい設計にします。
 
-![Choosing what to log safely](./picture/cloudflare_logs_ts_study_008_what_to_log.png)
 
 ---
 

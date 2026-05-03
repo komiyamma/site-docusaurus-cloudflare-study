@@ -3,7 +3,6 @@
 Workerだけならログは比較的シンプルです。  
 でもD1、R2、KV、Queuesを使うと、見る場所と原因候補が増えます。
 
-![Complexity of multi-service logs](./picture/cloudflare_logs_ts_study_010_multi_service_logs.png)
 
 ---
 
@@ -19,7 +18,6 @@ D1では、SQLやデータ状態を意識します。
 
 ログにはSQL全文より、処理名やrequestIdを出すほうが安全です。
 
-![D1 Database logging focus](./picture/cloudflare_logs_ts_study_010_d1_logging.png)
 
 ---
 
@@ -35,7 +33,6 @@ R2ではobject keyが重要です。
 
 ファイル本体ではなく、keyやjobIdをログに出します。
 
-![R2 Storage logging focus](./picture/cloudflare_logs_ts_study_010_r2_logging.png)
 
 ---
 
@@ -50,7 +47,6 @@ KVはeventual consistencyを意識します。
 
 「保存したはずなのに読めない」は、設計とタイミングを見ます。
 
-![KV eventual consistency](./picture/cloudflare_logs_ts_study_010_kv_consistency.png)
 
 ---
 
@@ -66,7 +62,6 @@ Queuesでは、retryやDLQを見ます。
 
 ProducerとConsumerの両方で同じjobIdをログに出すと追いやすいです。
 
-![Queues jobId tracking](./picture/cloudflare_logs_ts_study_010_queues_jobid.png)
 
 ---
 

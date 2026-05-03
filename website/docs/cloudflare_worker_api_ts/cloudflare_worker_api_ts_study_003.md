@@ -107,7 +107,6 @@ Hello API! 👋
 * `wrangler dev` が動いているか ▶️
 * ブラウザを再読み込みしたか 🔄 ([Cloudflare Docs][1])
 
-![cloudflare_worker_api_ts_study_003_3_local_dev](./picture/cloudflare_worker_api_ts_study_003_3_local_dev.png)
 
 ---
 
@@ -181,7 +180,6 @@ console.log(await res.json());
 
 この感覚は、第5章の POST/JSON、第8章の React 連携でそのまま効いてきます 💪
 
-![cloudflare_worker_api_ts_study_003_5_fetch_methods](./picture/cloudflare_worker_api_ts_study_003_5_fetch_methods.png)
 
 ---
 

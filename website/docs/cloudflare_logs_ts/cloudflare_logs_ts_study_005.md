@@ -53,7 +53,6 @@ export default {
 
 内部詳細はログへ、ユーザーには安全なメッセージを返します。
 
-![安全なメッセージ](./picture/cloudflare_logs_ts_study_005_internal_server_error.png)
 
 ---
 

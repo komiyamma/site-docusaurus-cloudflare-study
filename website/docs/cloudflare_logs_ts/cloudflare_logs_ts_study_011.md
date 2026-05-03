@@ -3,7 +3,7 @@
 AIアプリでは、普通のAPIに加えてAI特有の観測ポイントがあります。  
 遅さ、rate limit、token使用量、外部API失敗などを見ます。
 
-![AI vs Normal API monitoring](./picture/cloudflare_logs_ts_study_011_ai_vs_normal.png)
+![AI Monitoring Targets](./picture/cloudflare_logs_ts_study_011_1_ai_monitoring_targets.png)
 
 ---
 
@@ -22,7 +22,6 @@ AI機能では、次を見ます。
 
 ただ動けばよいのではなく、安定して動くかを見ます。
 
-![AI Metrics to monitor](./picture/cloudflare_logs_ts_study_011_ai_metrics.png)
 
 ---
 
@@ -40,7 +39,7 @@ AI provider
 
 リクエスト数や失敗、latencyを見やすくなります。
 
-![AI Gateway Architecture](./picture/cloudflare_logs_ts_study_011_ai_gateway.png)
+![AI Gateway Flow](./picture/cloudflare_logs_ts_study_011_2_ai_gateway_flow.png)
 
 ---
 
@@ -56,7 +55,7 @@ AIアプリでは、ログにプロンプトを出したくなることがあり
 
 必要ならマスクや要約を考えます。
 
-![Log Privacy for AI Prompts](./picture/cloudflare_logs_ts_study_011_ai_privacy.png)
+![Prompt Privacy](./picture/cloudflare_logs_ts_study_011_3_prompt_privacy.png)
 
 ---
 
@@ -70,7 +69,7 @@ Worker API → Queue / Workflow → AI処理 → D1へ状態保存
 
 jobIdで全体を追えるようにします。
 
-![Tracking AI with Queues](./picture/cloudflare_logs_ts_study_011_ai_queue.png)
+![Queue and Workflow with AI](./picture/cloudflare_logs_ts_study_011_4_queue_workflow.png)
 
 ---
 
@@ -84,5 +83,7 @@ jobIdで全体を追えるようにします。
 
 この章で覚える一言はこれです。  
 **AIアプリのログは、便利さとプライバシーのバランスを取りながら設計します 🤖**
+
+![Chapter 11 Summary Check](./picture/cloudflare_logs_ts_study_011_5_chapter_summary.png)
 
 ![AI App Log Design Summary](./picture/cloudflare_logs_ts_study_011_summary.png)

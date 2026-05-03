@@ -3,7 +3,6 @@
 ログは1件ごとの出来事を見るものです。  
 一方で、メトリクスやAnalyticsは全体の傾向を見るために使います。
 
-![Logs vs Metrics concept](./picture/cloudflare_logs_ts_study_007_metrics_vs_logs_concept.png)
 
 ---
 
@@ -38,7 +37,6 @@ Workers Analyticsでは、次のような情報を見ます。
 
 まずメトリクスで異常を見つけ、ログで原因を調べる流れが自然です。
 
-![Workflow from metrics to logs](./picture/cloudflare_logs_ts_study_007_metrics_to_logs_workflow.png)
 
 ---
 
@@ -56,7 +54,6 @@ Workers Analyticsでは、次のような情報を見ます。
 
 いきなり1件のログだけ見ると、全体像を見失うことがあります。
 
-![Order of checking during an incident](./picture/cloudflare_logs_ts_study_007_viewing_order.png)
 
 ---
 
@@ -71,7 +68,6 @@ Workers Analyticsでは、次のような情報を見ます。
 
 小さくても、見る習慣が大事です。
 
-![Building a habit of checking analytics](./picture/cloudflare_logs_ts_study_007_small_changes_habit.png)
 
 ---
 

@@ -17,7 +17,7 @@
 
 影響範囲が分かると、優先度を判断しやすくなります。
 
-![Assessing Impact Radius](./picture/cloudflare_logs_ts_study_012_impact_radius.png)
+![Incident Impact Scope](./picture/cloudflare_logs_ts_study_012_1_incident_scope.png)
 
 ---
 
@@ -35,7 +35,7 @@ CPU time
 
 急に変化した時間帯を見つけます。
 
-![Overall Metrics Spike](./picture/cloudflare_logs_ts_study_012_overall_metrics.png)
+![Overall Metrics](./picture/cloudflare_logs_ts_study_012_2_overall_metrics.png)
 
 ---
 
@@ -52,7 +52,7 @@ CPU time
 
 新しい変更が原因とは限りませんが、有力な手がかりです。
 
-![Checking Recent Changes](./picture/cloudflare_logs_ts_study_012_recent_changes.png)
+![Recent Changes Check](./picture/cloudflare_logs_ts_study_012_3_recent_changes.png)
 
 ---
 
@@ -71,7 +71,7 @@ durationMs
 
 同じエラーが繰り返されているか、特定データだけで起きるかを見ます。
 
-![Drilling down into individual logs](./picture/cloudflare_logs_ts_study_012_individual_logs.png)
+![Individual Logs Deep Dive](./picture/cloudflare_logs_ts_study_012_4_individual_logs.png)
 
 ---
 
@@ -85,5 +85,7 @@ durationMs
 
 この章で覚える一言はこれです。  
 **障害対応は、影響範囲 → 全体メトリクス → 直近変更 → 個別ログの順に見ると落ち着きます 🚨**
+
+![Chapter 12 Summary Check](./picture/cloudflare_logs_ts_study_012_5_chapter_summary.png)
 
 ![Incident Response Runbook Summary](./picture/cloudflare_logs_ts_study_012_summary.png)

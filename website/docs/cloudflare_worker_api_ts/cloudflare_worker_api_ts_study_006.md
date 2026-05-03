@@ -283,6 +283,8 @@ export default {
 ## 5. このコードの読みどころをやさしく分解しよう 🔍😊
 
 ## `new URL(request.url)` が分岐の入口
+![request_url](./picture/cloudflare_worker_api_ts_study_006_1_request_url.png)
+
 
 Workers の `fetch()` には `Request` が渡され、その `request.url` から URL を読めます。`Request` は Fetch API の `Request` で、URL を持っています。 ([Cloudflare Docs][5])
 
@@ -309,6 +311,8 @@ Workers の `fetch()` には `Request` が渡され、その `request.url` か�
 ![cloudflare_worker_api_ts_study_006_2_http_methods](./picture/cloudflare_worker_api_ts_study_006_2_http_methods.png)
 
 ## 404 と 405 の違いも少しだけ体験
+![error_codes](./picture/cloudflare_worker_api_ts_study_006_2_error_codes.png)
+
 
 * **404** = そのパスがない
 * **405** = パスはあるけど、そのメソッドはダメ
@@ -316,7 +320,6 @@ Workers の `fetch()` には `Request` が渡され、その `request.url` か�
 この違いを入れるだけで、急に API が「それっぽく」なります 😎
 次章でここはさらにしっかり整理します。
 
-![cloudflare_worker_api_ts_study_006_3_status_404_405](./picture/cloudflare_worker_api_ts_study_006_3_status_404_405.png)
 
 ---
 
@@ -350,11 +353,12 @@ Invoke-RestMethod `
   -Body '{"text":"Cloudflare Workers では Request と Response を使って API を作れます。URL と method で処理を分けると API らしい設計になります。"}'
 ```
 
-![cloudflare_worker_api_ts_study_006_4_powershell_test](./picture/cloudflare_worker_api_ts_study_006_4_powershell_test.png)
 
 ---
 
 ## 7. AIルートを1本まぜると何がうれしいの？ 🤖🌈
+![ai_api_flow](./picture/cloudflare_worker_api_ts_study_006_3_ai_api_flow.png)
+
 
 この章で `POST /ai/summary` を入れるのは、ただ流行りだからではありません 🙌
 **ルーティングの考え方が、AI API でもまったく同じ** と分かるからです。
@@ -367,11 +371,12 @@ Invoke-RestMethod `
 
 発展としては、今の Cloudflare には **AI Search** もあり、Workers binding・REST API・MCP で自然言語検索を扱えます。しかも新しい AI Search インスタンスは 2026年4月16日以降、managed storage・vector index・web crawling を含む構成になっています。将来 `/search` という API を足すイメージもかなり自然です。 ([Cloudflare Docs][6])
 
-![cloudflare_worker_api_ts_study_006_5_ai_api_integration](./picture/cloudflare_worker_api_ts_study_006_5_ai_api_integration.png)
 
 ---
 
 ## 8. if 文だらけで苦しくなったら、そこで Hono 👀🧩
+![hono_router](./picture/cloudflare_worker_api_ts_study_006_4_hono_router.png)
+
 
 素の Workers は学習にすごく向いています。
 でもルートが増えると、`if (pathname === "...")` がどんどん長くなります。
@@ -465,11 +470,12 @@ export default app;
 
 なお、Cloudflare の現行 Hono ガイドでは、React SPA と Hono API を同居させるテンプレートや、Cloudflare Vite plugin によるローカル開発も案内されています。 ([Cloudflare Docs][7])
 
-![cloudflare_worker_api_ts_study_006_6_hono_framework](./picture/cloudflare_worker_api_ts_study_006_6_hono_framework.png)
 
 ---
 
 ## 9. AIコーディング支援の使いどころ 🧠✨
+![ai_coding_assist](./picture/cloudflare_worker_api_ts_study_006_5_ai_coding_assist.png)
+
 
 Cloudflare の現行 Prompting ドキュメントでは、Workers を **VS Code、Codex、Claude Code、Cursor、Windsurf** などのエディタ／エージェントで扱う流れが案内されています。さらに Docs MCP サーバーや Observability MCP サーバーをつなぐ方法もあり、GitHub Copilot では `.github/copilot-instructions.md` を使う案内もあります。 ([Cloudflare Docs][8])
 
@@ -486,6 +492,8 @@ Copilot でも AI ツールでも、**“コード生成だけさせる”より
 ---
 
 ## 10. この章でハマりやすいポイント 😵‍💫🪤
+![common_pitfalls](./picture/cloudflare_worker_api_ts_study_006_6_common_pitfalls.png)
+
 
 ## パスだけ見て、メソッドを見ていない
 
@@ -507,7 +515,6 @@ Copilot でも AI ツールでも、**“コード生成だけさせる”より
 学習初期はOKです 👍
 でも大きくなったら、Hono に寄せる、別モジュールに分ける、あるいは将来 Service Bindings を考える、という流れになります。
 
-![cloudflare_worker_api_ts_study_006_7_common_mistakes](./picture/cloudflare_worker_api_ts_study_006_7_common_mistakes.png)
 
 ---
 
@@ -536,6 +543,8 @@ Copilot でも AI ツールでも、**“コード生成だけさせる”より
 ---
 
 ## 12. 章末チェック ✅🌟
+![chapter_summary](./picture/cloudflare_worker_api_ts_study_006_7_chapter_summary.png)
+
 
 この章が終わった時点で、次の感覚があればかなり順調です 😊
 
