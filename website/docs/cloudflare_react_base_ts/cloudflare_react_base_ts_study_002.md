@@ -1,4 +1,4 @@
-﻿# 第02章：Reactの超基本だけを先につかもう 🧩
+# 第02章：Reactの超基本だけを先につかもう 🧩
 
 この章では、React を「難しいフレームワーク」としてではなく、**画面を部品で作るための便利な道具**としてつかみます 😊
 2026年4月17日時点で React 公式ドキュメントの最新メジャーは **19.2** で、学習導線は「コンポーネント → props → 条件分岐 → リスト表示 → イベント → state」の順で整理されています。さらに React 公式は新規コードで**関数コンポーネント**を勧めており、Cloudflare の公式 React 導線も **React SPA + Workers API + Cloudflare Vite plugin** を中心にしています。 ([React][1])
@@ -36,7 +36,7 @@ React は、**ユーザーインターフェースを小さな部品の集まり
 
 こうやって分けておくと、後から「見た目を変える」「AIの返事を出す」「Workers APIから受け取った結果を表示する」がかなり楽になります。Cloudflare の公式ガイドも、React を SPA の画面側、Workers を API 側として組み合わせる導線を示しています。 ([Cloudflare Docs][5])
 
-![React Components as Blocks](./picture/cloudflare_react_base_ts_study_002_1_components.png)
+
 
 ---
 

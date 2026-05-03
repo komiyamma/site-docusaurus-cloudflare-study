@@ -17,7 +17,7 @@
 
 影響範囲が分かると、優先度を判断しやすくなります。
 
-![Incident Impact Scope](./picture/cloudflare_logs_ts_study_012_1_incident_scope.png)
+
 
 ---
 

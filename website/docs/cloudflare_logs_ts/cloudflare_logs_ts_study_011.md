@@ -3,7 +3,7 @@
 AIアプリでは、普通のAPIに加えてAI特有の観測ポイントがあります。  
 遅さ、rate limit、token使用量、外部API失敗などを見ます。
 
-![AI Monitoring Targets](./picture/cloudflare_logs_ts_study_011_1_ai_monitoring_targets.png)
+
 
 ---
 
