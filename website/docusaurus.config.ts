@@ -37,6 +37,9 @@ const config: Config = {
   markdown: {
     format: 'detect',  // .md は CommonMark、.mdx は MDX として処理
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownImages: 'ignore',
+    },
     // 外部の .memo ファイルからページの description を読み込む
     parseFrontMatter: async (params) => {
       // デフォルトのパーサーを使用
