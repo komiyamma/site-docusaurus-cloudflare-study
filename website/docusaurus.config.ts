@@ -146,6 +146,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'cloudflareDashboardTsSidebar',
+          position: 'left',
+          label: '管理画面',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'cloudflareDevenvTsSidebar',
           position: 'left',
           label: '開発環境',
@@ -155,6 +161,18 @@ const config: Config = {
           sidebarId: 'cloudflareWorkerFirstTsSidebar',
           position: 'left',
           label: 'Worker入門',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareLocalDebugTsSidebar',
+          position: 'left',
+          label: 'ローカル/デバッグ',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareStaticPageTsSidebar',
+          position: 'left',
+          label: '静的公開',
         },
         {
           type: 'docSidebar',
@@ -176,9 +194,21 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'cloudflareOwnDomainTsSidebar',
+          position: 'left',
+          label: '独自ドメイン',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'cloudflareCdnCacheTsSidebar',
           position: 'left',
           label: 'CDN/キャッシュ',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareSecretsGuardTsSidebar',
+          position: 'left',
+          label: '守る基本',
         },
         {
           type: 'docSidebar',
@@ -188,9 +218,63 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'cloudflareKvTsSidebar',
+          position: 'left',
+          label: 'KV',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareD1TsSidebar',
+          position: 'left',
+          label: 'D1',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareR2TsSidebar',
+          position: 'left',
+          label: 'R2/Images',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareDurableObjectTsSidebar',
+          position: 'left',
+          label: 'Durable Objects',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareQueuesTsSidebar',
+          position: 'left',
+          label: 'Queues',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareCronTsSidebar',
+          position: 'left',
+          label: 'Cron/Workflows',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareLogsTsSidebar',
+          position: 'left',
+          label: '運用/Logs',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'cloudflareWorkerAiTsSidebar',
           position: 'left',
           label: 'Workers AI',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareAiFunctionsTsSidebar',
+          position: 'left',
+          label: 'AI応用',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'cloudflareOverallFinishTsSidebar',
+          position: 'left',
+          label: '総仕上げ',
         },
         {
           href: 'https://komiyamma.net',

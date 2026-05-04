@@ -36,6 +36,7 @@ function generateProjectSidebar(folder: string) {
 const cloudflareSidebars = [
   ['cloudflareIsWhatTsSidebar', 'cloudflare_is_what_ts'],
   ['cloudflareWebCloudTsSidebar', 'cloudflare_web_cloud_ts'],
+  ['cloudflareDashboardTsSidebar', 'cloudflare_dashboard_ts'],
   ['cloudflareDevenvTsSidebar', 'cloudflare_devenv_ts'],
   ['cloudflareWorkerFirstTsSidebar', 'cloudflare_worker_first_ts'],
   ['cloudflareLocalDebugTsSidebar', 'cloudflare_local_debug_ts'],
