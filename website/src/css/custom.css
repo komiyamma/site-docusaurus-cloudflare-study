@@ -77,74 +77,14 @@
    Navbar - 1st row layout
    ======================================== */
 
-.navbar {
-  height: auto;
-  min-height: var(--ifm-navbar-height);
-  padding: 0;
-}
-
-.navbar__inner {
-  align-items: center;
-  flex-wrap: wrap;
-  height: auto;
-}
-
+/* Navbar brand (HOME icon + text) - normal flow, no absolute positioning */
 .navbar__brand {
   flex-shrink: 0;
-  height: var(--ifm-navbar-height);
-  margin-right: 1rem;
-  order: 1;
 }
 
+/* HOME text color */
 .navbar__title {
   color: rgba(255, 255, 255, 0.9);
-}
-
-.navbar__items--right {
-  height: var(--ifm-navbar-height);
-  margin-left: auto;
-  order: 2;
-}
-
-.navbar__items:not(.navbar__items--right) {
-  border-top: 1px solid rgba(255, 255, 255, 0.16);
-  flex-basis: 100%;
-  flex-wrap: nowrap;
-  height: 2.15rem;
-  min-width: 0;
-  order: 3;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scrollbar-color: rgba(255, 255, 255, 0.45) transparent;
-  scrollbar-width: thin;
-  white-space: nowrap;
-}
-
-.navbar__items:not(.navbar__items--right) .navbar__item {
-  flex-shrink: 0;
-}
-
-.navbar__items:not(.navbar__items--right) .navbar__link {
-  font-size: 0.78rem;
-  font-weight: 700;
-  padding: 0.35rem 0.75rem;
-}
-
-.navbar__items:not(.navbar__items--right)::-webkit-scrollbar {
-  height: 6px;
-}
-
-.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.45);
-  border-radius: 4px;
-}
-
-.navbar__items:not(.navbar__items--right)::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.65);
 }
 
 
