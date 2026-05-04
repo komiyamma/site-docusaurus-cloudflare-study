@@ -9,7 +9,7 @@ import * as path from 'path';
 const config: Config = {
   title: 'Cloudflareの学習教材',
   tagline: 'Cloudflare学習教材（24章アウトライン）',
-  favicon: 'img/cloudflare_logo.svg',
+  favicon: 'img/cloudflare_icon.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
